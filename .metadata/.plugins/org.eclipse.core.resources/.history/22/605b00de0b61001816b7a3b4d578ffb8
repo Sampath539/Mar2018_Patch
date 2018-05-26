@@ -1,0 +1,21 @@
+package com.java;
+
+public class Q80 extends BC {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+class AB{
+	public AB() {
+		System.out.println("AB");
+	}
+}
+
+class BC extends AB {
+	public BC() {
+		System.out.println("BC");
+	}
+}

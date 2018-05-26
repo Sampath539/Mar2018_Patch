@@ -1,0 +1,18 @@
+package com.java;
+
+public class Q52 extends Star implements Universe {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+class Star{
+	public void doStuff() {
+		System.out.println("Twinkling star");
+	}
+}
+interface Universe{
+	public void doStuff();
+}

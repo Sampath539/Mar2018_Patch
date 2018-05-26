@@ -1,0 +1,31 @@
+package com.java;
+
+public class Q15 extends Abc{
+
+	int y;
+	Q15(){
+		this(20);
+	}
+	Q15(int a){
+		this.y=a;
+	}
+	
+	@Override
+	public String toString() {
+		return "Q15 [y=" + y + ", x=" + x + "]";
+	}
+	public static void main(String[] args) {
+	Abc q= new Q15();
+	
+	System.out.println(q);
+	}
+}
+class Abc{
+	int x;
+	Abc(){
+		this(10);
+	}
+	Abc(int a){
+		this.x=a;
+	}
+}

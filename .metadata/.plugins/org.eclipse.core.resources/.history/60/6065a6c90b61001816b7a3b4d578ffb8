@@ -1,0 +1,20 @@
+package com.java;
+
+public class Q80 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+class AB{
+	public AB() {
+		System.out.println("AB");
+	}
+}
+class BC() {
+	public BC() {
+		System.out.println("BC");
+	}
+}

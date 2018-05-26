@@ -1,0 +1,44 @@
+package com.polymorphism;
+
+public class Polymorphism extends B {
+
+	//Ploymorphism means multi-forms.
+	//2 types of polymorphism 
+	//1. Static polymorphism				2.Dynamic polymorphism
+	//	 Complie-time Polymo..					Run time polymor..
+	//	 Early loading polymo..					Lazy loading ploym..
+	//			|										|
+	//	Method overloading + Method hiding			Method overriding
+	
+	public static void main(String[] args) {
+		Polymorphism p = new Polymorphism();
+		
+		//1
+		System.out.println(p.x);			//300
+		
+		A a = new A();
+		System.out.println(a.x);			//100
+		
+		B b = new B();
+		System.out.println(b.x);			//300
+		
+		A ab = new B();
+		System.out.println(ab.x);			//100
+		//
+		
+		//2
+	}
+
+}
+
+//1
+class A {
+	int x = 100;
+}
+
+class B extends A {
+	int x = 300;
+}
+//
+
+//2

@@ -1,0 +1,18 @@
+package com.java;
+
+public class Q46 extends CD{
+
+	Q46(int a, int b){
+		super.a =a;
+		this.b=b;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+class CD{
+	int a;
+	
+}

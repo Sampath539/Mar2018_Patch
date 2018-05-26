@@ -1,0 +1,16 @@
+package com.java;
+
+public class Q46 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+class CD{
+	int a;
+	CD(int a){
+		this.r=r;
+	}
+}

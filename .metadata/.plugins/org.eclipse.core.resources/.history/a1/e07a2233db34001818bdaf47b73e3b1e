@@ -1,0 +1,21 @@
+package com.practice.Inheritance;
+
+public class Bank extends Axis {
+
+	public void m2() {
+		
+	}
+	public static void main(String[] args) {
+		Bank b = new Bank();			//This object will have Axis class properties also. So you can call m1()
+		b.m1();
+
+	}
+
+}
+
+class Axis {
+	public void m1() {
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.java;
+
+public class Q80 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+class A{
+	public A() {
+		System.out.println("A");
+	}
+}

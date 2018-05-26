@@ -1,0 +1,28 @@
+package com.java;
+
+import java.util.ArrayList;
+
+public class Q15 {
+
+	public static void main(String[] args) {
+
+		ArrayList myList  = new ArrayList();
+		String[] myString;
+		try {
+			while(true) {
+				myList.add("My String");
+			}
+		}catch(RuntimeException e) {
+			System.out.println("Caught Runtime");
+		}catch(Exception e) {
+			System.out.println("Caught Exception");
+		}
+	}
+}
+
+abstract class nb{
+	public abstract void m1();
+	public void m2() {
+		
+	}
+}

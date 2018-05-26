@@ -1,0 +1,23 @@
+package com.practice.Inheritance;
+
+
+public interface IMultipleInheritance extends IIcici{
+
+}
+
+interface IBank {
+	public abstract void m1();
+}
+
+interface IAxis {
+	public abstract void m1();
+}
+
+interface IIcici extends IBank, IAxis {
+
+}
+class Impl implements IMultipleInheritance{
+	public static void main(String[] a) {
+		
+	}
+}

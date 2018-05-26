@@ -1,0 +1,35 @@
+package com.java;
+
+import java.io.IOException;
+
+public class Q40 extends L{
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+X a = new X();
+a.prints();
+
+
+
+	}
+
+	@Override
+	public int calculate(L l) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
+class X{
+	public void prints() throws IOException  {
+		throw new IOException();
+	}
+}
+abstract class L{
+	int a;
+	String name;
+	public abstract int calculate(L l) ;
+	public void pring(L l) {
+		
+	}
+}

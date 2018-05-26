@@ -1,0 +1,18 @@
+package com.practice.Inheritance;
+
+public class MethodOverriding {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+class AxisRiden{
+	
+}
+
+class BankRiden{
+	
+}

@@ -1,0 +1,19 @@
+package com.java;
+
+public class Q82 {
+
+	int i;
+	String name;
+	public Product(int a, String b) {
+		this.i=a;
+		this.name=b;
+	}
+	public static void main(String[] args) {
+		Product 
+
+	}
+
+}
+class Product{
+	
+}

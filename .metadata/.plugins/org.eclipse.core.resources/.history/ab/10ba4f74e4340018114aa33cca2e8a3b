@@ -1,0 +1,9 @@
+package com.practice.Inheritance;
+
+public interface IMultipleInheritance {
+
+}
+
+interface Bank{
+	
+}

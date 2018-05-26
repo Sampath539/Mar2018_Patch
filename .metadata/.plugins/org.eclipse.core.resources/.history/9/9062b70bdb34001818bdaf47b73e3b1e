@@ -1,0 +1,18 @@
+package com.practice.Inheritance;
+
+public class Bank extends Axis {
+
+	public static void main(String[] args) {
+		Bank b = new Bank();
+		b.m1();
+
+	}
+
+}
+
+class Axis {
+	public void m1() {
+
+	}
+
+}

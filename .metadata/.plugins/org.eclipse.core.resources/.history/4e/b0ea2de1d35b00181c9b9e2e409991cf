@@ -1,0 +1,24 @@
+package com.java;
+
+public class Q2 extends A implements B{
+public void displayI() {
+		System.out.println("c1");
+	}
+public static void main(String[] args) {
+	A q= new Q2();
+	B i= new Q2();
+	
+	A s = i;
+	
+}
+}
+
+class A{
+	
+	public void doStuff() {
+		System.out.println("c2");
+	}
+}
+interface B{
+	public void displayI();
+}

@@ -1,0 +1,16 @@
+package com.polymorphism;
+
+public class Polymorphism {
+
+	//Ploymorphism means multi-forms.
+	//2 types of polymorphism 
+	//1. Static polymorphism				2.Dynamic polymorphism
+	//	 Complie-time Polymo..					Run time polymor..
+	//	 Early loading polymo..					Lazy loading ploym..
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

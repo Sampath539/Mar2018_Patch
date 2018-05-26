@@ -1,0 +1,14 @@
+package com.java;
+
+public class Q77 {
+
+	static void m1(int[] a) {
+		
+	}
+	public static void main(String[] args) {
+		int a[]= {100,100};
+		m1(a);
+
+	}
+
+}

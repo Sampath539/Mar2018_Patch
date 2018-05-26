@@ -1,0 +1,18 @@
+package com.practice;
+
+public class GarbageCollection {
+
+	//If any object not having reference(Hashcode) then it is eligible for garbage colletion
+	//ways to create garbage colletion are... Creating object in local methods, making an object null
+	public static void main(String[] args) {
+		
+
+	}
+	void m1() {
+		
+	}
+	GarbageCollection(String name){
+		this.name = name;
+	}
+
+}

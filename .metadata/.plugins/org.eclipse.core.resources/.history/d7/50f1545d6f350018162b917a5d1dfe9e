@@ -1,0 +1,11 @@
+package com.practice;
+
+public class DefaultMethods {
+
+	public static void main(String[] args) {
+		double a=10.5;
+		double b= -10.5;
+
+	}
+
+}

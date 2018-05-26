@@ -1,0 +1,37 @@
+package com.practice.Inheritance;
+
+public class MethodOverloading {
+	public void m1(int a) {
+		System.out.println(a);
+	}									//1. This is called method overloading
+	public void m1(String a) {
+		System.out.println(a);
+	}
+	
+	///////////2
+	public void m2(Object a) {
+		System.out.println(a);
+	}
+	public void m2(String a) {
+		System.out.println(a);
+	}
+	
+	////////3
+	public void m3(String a) {
+		System.out.println(a);
+	}
+	public void m3(Object a) {
+		System.out.println(a);
+	}
+	public static void main(String[] args) {
+	MethodOverloading obj = new MethodOverloading();
+	obj.m1(10);
+	obj.m1("Hello");
+
+	////////2
+	obj.m2("Hi");
+	obj.m2(new Object());
+	obj.m2(null);				//It will go to m2(String)
+	}
+
+}

@@ -1,0 +1,33 @@
+package com.java;
+
+public class Q15 extends Abc{
+
+	
+	@Override
+	public String toString() {
+		return "Q15 [y=" + y + "]";
+	}
+	public static void main(String[] args) {
+	Abc q= new Q15();
+	
+	System.out.println(q.x+","+q.y);
+	}
+}
+class Abc{
+	int x;
+	Abc(){
+		this(10);
+	}
+	Abc(int a){
+		this.x=a;
+	}
+}
+class Car{
+	int y;
+	Car(){
+		this(20);
+	}
+	Car(int a){
+		this.y=a;
+	}
+}

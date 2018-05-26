@@ -1,0 +1,13 @@
+package com.java;
+
+public class Q75 {
+	void printC(int a) {
+		System.out.println("reading card");
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

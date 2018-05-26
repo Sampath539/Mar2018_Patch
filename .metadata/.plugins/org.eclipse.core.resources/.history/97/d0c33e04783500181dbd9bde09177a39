@@ -1,0 +1,25 @@
+package com.practice.Inheritance;
+
+public class MethodOverriding extends BankRiden{
+
+	public static void main(String[] args) {
+		MethodOverriding mo = new MethodOverriding();
+
+	}
+
+}
+
+class AxisRiden{
+	public void m1() {
+		System.out.println("Old version m1 MethodOverriding");
+	}									//1.This is called method over riding. writing methods with different names
+	public void m2() {
+		System.out.println("Method over riding by changing different name with same args");
+	}
+}
+
+class BankRiden extends AxisRiden{
+	public void m1() {
+		System.out.println("New Version of m1 MethodOverriding");								//2.This is also called methodOverriding. Writing new version of method
+	}
+}

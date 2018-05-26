@@ -1,0 +1,12 @@
+package com.java;
+
+public class Q15 {
+
+	public static String m1(String cc) {
+		
+	}
+	public static void main(String[] args) {
+
+		
+	}
+}

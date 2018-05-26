@@ -1,0 +1,16 @@
+package com.java;
+
+public class Q54 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+class Patient{
+	String name;
+	public Patient(String name) {
+		this.name = name;
+	}
+}

@@ -1,0 +1,12 @@
+package com.java;
+
+public class Q77 {
+
+	int a;
+	static int c;
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.java;
+
+public class Q15 {
+
+	public static void main(String[] args) {
+
+		System.out.println(":");
+	}
+}
+
+abstract class ABC {
+	public abstract void mA();
+}
+
+interface CBA {
+	public void mC();
+}
+
+abstract class NM extends ABC implements CBA {
+
+}
+
+abstract class mk extends ABC implements CBA {
+	public void mA() {
+	}
+}

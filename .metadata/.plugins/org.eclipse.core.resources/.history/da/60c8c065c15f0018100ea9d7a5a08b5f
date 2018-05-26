@@ -1,0 +1,18 @@
+package com.java;
+
+public class Q54 {
+
+	public static void main(String[] args) {
+		List ls = new ArrayList();
+		Patient ps = new Patient("Mike");
+		
+
+	}
+
+}
+class Patient{
+	String name;
+	public Patient(String name) {
+		this.name = name;
+	}
+}

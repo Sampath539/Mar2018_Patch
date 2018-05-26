@@ -1,0 +1,9 @@
+package com.java;
+
+public class Q15 extends Abc{
+
+	
+	public static void main(String[] args) {
+	
+	}
+}
