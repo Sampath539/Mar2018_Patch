@@ -10,8 +10,7 @@ public class Q234 {
 		
 		case "g":
 			System.out.println("A");
-		default : 
-			System.out.println("default");
+		
 		}
 
 	}

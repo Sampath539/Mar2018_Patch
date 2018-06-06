@@ -44,9 +44,9 @@ abstract class Diff{
  * then best to go										You can declare the methods and you can implement the methods.
 *
 *  2.methods should be public whether we are 		2. Methods can be private but should have implementation,
-*  declaring or not. It gives 100% abstraction			Mehotds can be public abstract. abstract methods should be public.
+*  declaring or not. It gives 100% abstraction			Methods can be public abstract. abstract methods should be public.
 *
-*	3.Every variable in the interace should always 	3. No restrictions for variables
+*	3.Every variable in the interface should always 	3. No restrictions for variables
 *	public static final.								
 *
 *
