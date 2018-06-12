@@ -6,6 +6,7 @@ import java.util.List;
 public class Q2{
 
 public static void main(String[] args) {
+//List<A> l = new ArrayList<A>();
 List<A> l = new ArrayList<A>();
 l.add(new A());
 l.add(new B());

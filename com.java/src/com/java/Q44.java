@@ -4,14 +4,12 @@ public class Q44 {
 public static void m1(Integer a, Integer b) {
 	System.out.println("Integer "+(a+b));
 }
-public static void m1(Double a, Double b) {
-	System.out.println("Double "+(a+b));
-}
+
 public static void m1(double a, double b) {
 	System.out.println("double "+(a+b));
 }
 public static void m1(int a, int b) {
-	System.out.println("Int "+(a+b));
+	System.out.println("int "+(a+b));
 }
 public static void m1(float a, float b) {
 	System.out.println("float "+(a+b));

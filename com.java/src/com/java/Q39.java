@@ -1,13 +1,12 @@
 package com.java;
 
-import java.io.IOException;
 
 public class Q39 {
 
 	public static void main(String[] args) {
 		String[] str = new String[2];
 		int idx=0;
-		for(String s: str) {
+		for(@SuppressWarnings("unused") String s: str) {
 			str[0].concat("element "+idx);
 			idx++;
 		}

@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.collections.HashMapEx"/>
-<fullyQualifiedTypeName name="com.collections.WeakHashMapEx"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="java.util.Hashtable"/>
-<fullyQualifiedTypeName name="com.collections.PropertiesEx"/>
-<fullyQualifiedTypeName name="java.util.Enumeration"/>
-<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
-<fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="java.util.Properties"/>
 <fullyQualifiedTypeName name="PriorityQueueEx"/>
 <fullyQualifiedTypeName name="java.util.NavigableSet"/>
@@ -30,7 +22,6 @@
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="com.java.Universe"/>
 <fullyQualifiedTypeName name="com.java.Patient"/>
-<fullyQualifiedTypeName name="com.practice.GarbageCollection"/>
 <fullyQualifiedTypeName name="java.lang.reflect.InvocationTargetException"/>
 <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
 <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
@@ -47,7 +38,6 @@
 <fullyQualifiedTypeName name="com.java.AgeOutOfBoundsException"/>
 <fullyQualifiedTypeName name="com.java.MissingInfoException"/>
 <fullyQualifiedTypeName name="java.sql.Array"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.awt.font.NumericShaper"/>
 <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
@@ -55,9 +45,19 @@
 <fullyQualifiedTypeName name="com.java.Animal"/>
 <fullyQualifiedTypeName name="com.java.impl.DoClass"/>
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
-<fullyQualifiedTypeName name="java.security.Timestamp"/>
-<fullyQualifiedTypeName name="java.sql.Timestamp"/>
 <fullyQualifiedTypeName name="java.time.LocalTime"/>
 <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="com.java.Q57.SpecialException"/>
+<fullyQualifiedTypeName name="com.java.SpecialException"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.practice.GarbageCollection"/>
+<fullyQualifiedTypeName name="com.practice.ProtectedShadowEx"/>
+<fullyQualifiedTypeName name="com.practice.Inheritance.ProtectedShadow"/>
+<fullyQualifiedTypeName name="java.time.Instant"/>
+<fullyQualifiedTypeName name="java.time.Clock"/>
+<fullyQualifiedTypeName name="java.util.TimeZone"/>
+<fullyQualifiedTypeName name="java.security.Timestamp"/>
+<fullyQualifiedTypeName name="java.sql.Timestamp"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 </qualifiedTypeNameHistroy>

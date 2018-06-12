@@ -27,4 +27,7 @@ public class Q46 extends CD {
 class CD {
 	int a;
 
+	/*CD(int a){
+		this.a=a;
+	}*/
 }

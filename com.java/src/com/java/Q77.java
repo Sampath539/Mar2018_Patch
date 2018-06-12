@@ -8,6 +8,7 @@ public class Q77 {
 		}catch (ArithmeticException e) {
 			System.err.println("First");
 		}
+		System.out.println("done");
 	}
 	public static void main(String[] args) {
 		int a[]= {100,100};
