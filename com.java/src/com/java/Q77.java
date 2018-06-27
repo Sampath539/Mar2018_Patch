@@ -11,7 +11,7 @@ public class Q77 {
 		System.out.println("done");
 	}
 	public static void main(String[] args) {
-		int a[]= {100,100};
+		int a[]= {100,0};
 		try {
 		m1(a);
 		}catch (IllegalArgumentException e) {

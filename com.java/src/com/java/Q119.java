@@ -1,5 +1,8 @@
 package com.java;
 
+import java.time.LocalDate;
+import java.time.Period;
+
 public class Q119 {
 
 	public static void main(String[] args) {
@@ -15,6 +18,12 @@ public class Q119 {
 					row = row/col;
 					//System.out.println(row);
 		}
+		
+		LocalDate l = LocalDate
+				.of(2018, 3, 15);
+		Period p = Period.ofDays(1);
+		l.plus(p);
+		System.out.println(l);
 		
 	}
 

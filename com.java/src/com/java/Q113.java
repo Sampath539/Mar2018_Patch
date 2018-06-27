@@ -26,6 +26,11 @@ public class Q113 {
 			default:
 				System.out.println("Def");
 		}
+		
+		float q = 123_45.01 > 1234_5.00 ? 12456 : 124_56.02f;
+		float v = q+1024;
+		
+		System.out.println(v);
 	}
 
 }

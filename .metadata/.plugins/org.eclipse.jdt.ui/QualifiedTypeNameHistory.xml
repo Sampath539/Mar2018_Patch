@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Properties"/>
-<fullyQualifiedTypeName name="PriorityQueueEx"/>
 <fullyQualifiedTypeName name="java.util.NavigableSet"/>
 <fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
@@ -44,9 +42,7 @@
 <fullyQualifiedTypeName name="com.java.Hunter"/>
 <fullyQualifiedTypeName name="com.java.Animal"/>
 <fullyQualifiedTypeName name="com.java.impl.DoClass"/>
-<fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="java.time.LocalTime"/>
-<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
 <fullyQualifiedTypeName name="com.java.Q57.SpecialException"/>
 <fullyQualifiedTypeName name="com.java.SpecialException"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
@@ -60,4 +56,8 @@
 <fullyQualifiedTypeName name="java.security.Timestamp"/>
 <fullyQualifiedTypeName name="java.sql.Timestamp"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="com.java.Q75"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="java.time.Period"/>
 </qualifiedTypeNameHistroy>
